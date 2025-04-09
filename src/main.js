@@ -14,8 +14,6 @@ const refs = {
 
 let lightbox;
 
-hideLoader();
-
 refs.form.addEventListener('submit', getImgFromSearch);
 
 function getImgFromSearch(e) {
